@@ -27,3 +27,34 @@ With this application, I can quickly start a pomodoro timer and track a study se
 - As a user, I want to be able to edit the pomodoro timer settings in terms of interval durations and repetitions.
 - As a user, I want to be able to save my study tracker's activities, sessions, and timer settings.
 - As a user, I want to be able to load my study tracker from file.
+
+<!-- ## Phase 4: Task 2
+Fri Apr 01 12:32:46 PDT 2022  
+Viewed all sessions
+
+Fri Apr 01 12:32:54 PDT 2022  
+Session added to study tracker
+
+Fri Apr 01 12:32:57 PDT 2022  
+Activity added to study tracker
+
+Fri Apr 01 12:33:06 PDT 2022  
+Pomodoro session added to study tracker
+
+Fri Apr 01 12:33:08 PDT 2022  
+Viewed all sessions
+
+Fri Apr 01 12:33:09 PDT 2022  
+Viewed sessions filtered by activity
+
+Fri Apr 01 12:33:15 PDT 2022  
+Session removed from study tracker
+
+## Phase 4: Task 3
+Ways to refactor:
+- AddSessionPanel and ViewSessionsPanel both have fields for StudyTrackerGUI and ActivityComboBox. 
+Duplication can be reduced by creating an abstract class with those two fields and have AddSessionPanel and  ViewSessionsPanel extend it.
+- Currently, StudyTrackerGUI has an association with AddPomodoroSessionPanel (APSP) so it can check for changes in 
+the APSP timer settings then update its tracker's timer settings. I can remove this association to reduce coupling by adding a 
+PropertyChangeListener to the APSP. This listener will listen to any changes in the APSP timer settings and update the tracker's timer settings if required.
+ -->

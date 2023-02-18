@@ -1,0 +1,67 @@
+{
+  "timerSettings": {
+    "longBreak": 25,
+    "pomodoroRepeats": 4,
+    "pomodoro": 25,
+    "shortBreak": 5
+  },
+  "activities": [
+    {
+      "name": "CPSC210"
+    },
+    {
+      "name": "Reading time"
+    }
+  ],
+  "sessions": [
+    {
+      "start": "2022-02-06T16:00",
+      "details": "Lab 5",
+      "end": "2022-02-06T18:30",
+      "activity": "CPSC210"
+    },
+    {
+      "start": "2022-02-07T14:00",
+      "details": "Abstraction 6",
+      "end": "2022-02-07T16:30",
+      "activity": "CPSC210",
+      "timerSettings": {
+        "longBreak": 30,
+        "pomodoroRepeats": 2,
+        "pomodoro": 50,
+        "shortBreak": 10 },
+      "pomodoroMinutes": 91
+    },
+    {
+      "start": "2022-02-07T23:00",
+      "details": "Abstraction practice problems",
+      "end": "2022-02-08T01:30",
+      "activity": "CPSC210"
+    },
+    {
+      "pomodoroMinutes": 45,
+      "activity": "Reading time",
+      "timerSettings": {
+        "longBreak": 25,
+        "pomodoroRepeats": 4,
+        "pomodoro": 25,
+        "shortBreak": 5
+      },
+      "start": "2022-02-08T15:40",
+      "details": "Some Book: chapters 1 - 3\n- very good book so far, 10/10" ,
+      "end": "2022-02-08T16:30"
+    },
+    {
+      "start": "2022-02-09T16:45",
+      "details": "random focus sessions",
+      "end": "2022-02-09T17:50",
+      "activity": ""
+    },
+    {
+      "start": "2022-02-10T16:00",
+      "details": "Some Book: chapters 4 - 5",
+      "end": "2022-02-10T17:30",
+      "activity": "Reading time"
+    }
+  ]
+}

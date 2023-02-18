@@ -1,0 +1,10 @@
+{
+  "timerSettings": {
+    "pomodoro": 25,
+    "shortBreak": 5,
+    "longBreak": 25,
+    "pomodoroRepeats": 4
+  },
+  "activities": [],
+  "sessions": []
+}

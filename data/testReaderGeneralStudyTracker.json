@@ -1,0 +1,62 @@
+{
+  "timerSettings": {
+    "pomodoro": 25,
+    "shortBreak": 5,
+    "longBreak": 25,
+    "pomodoroRepeats": 4
+  },
+  "activities": [
+    {
+      "name": "MyCourse"
+    },
+    {
+      "name": "Reading time"
+    }
+  ],
+  "sessions": [
+    {
+      "details": "lab",
+      "start": "2022-02-07T14:00",
+      "end": "2022-02-07T16:30",
+      "timerSettings": {
+        "pomodoro": 50,
+        "shortBreak": 10,
+        "longBreak": 35,
+        "pomodoroRepeats": 2
+      },
+      "pomodoroMinutes": 4,
+      "activity": "MyCourse"
+    },
+    {
+      "details": "watch lecture",
+      "start": "2022-02-07T14:00",
+      "end": "2022-02-07T16:30",
+      "activity": "MyCourse"
+    },
+    {
+      "details": "A book title: chapters 1 - 3",
+      "start": "2022-02-07T16:30",
+      "end": "2022-02-07T18:00",
+      "activity": "Reading time"
+    },
+    {
+      "details": "null activity",
+      "start": "2022-02-07T16:30",
+      "end": "2022-02-07T18:00",
+      "activity": ""
+    },
+    {
+      "details": "null activity",
+      "start": "2022-02-07T14:00",
+      "end": "2022-02-07T16:30",
+      "timerSettings": {
+        "pomodoro": 50,
+        "shortBreak": 10,
+        "longBreak": 35,
+        "pomodoroRepeats": 2
+      },
+      "pomodoroMinutes": 4,
+      "activity": ""
+    }
+  ]
+}

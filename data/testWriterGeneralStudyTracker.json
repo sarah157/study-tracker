@@ -1,0 +1,52 @@
+{
+    "sessions": [
+        {
+            "activity": "a1",
+            "start": "2022-02-22T12:40",
+            "details": "s1",
+            "end": "2022-02-22T13:40"
+        },
+        {
+            "pomodoroMinutes": 2,
+            "activity": "a2",
+            "timerSettings": {
+                "longBreak": 25,
+                "pomodoroRepeats": 4,
+                "pomodoro": 25,
+                "shortBreak": 5
+            },
+            "start": "2022-02-22T15:40",
+            "details": "s2",
+            "end": "2022-02-22T16:40"
+        },
+        {
+            "activity": "",
+            "start": "2022-02-22T12:40",
+            "details": "s3",
+            "end": "2022-02-22T13:40"
+        },
+        {
+            "pomodoroMinutes": 2,
+            "activity": "",
+            "timerSettings": {
+                "longBreak": 25,
+                "pomodoroRepeats": 4,
+                "pomodoro": 25,
+                "shortBreak": 5
+            },
+            "start": "2022-02-22T15:40",
+            "details": "s2",
+            "end": "2022-02-22T16:40"
+        }
+    ],
+    "timerSettings": {
+        "longBreak": 30,
+        "pomodoroRepeats": 2,
+        "pomodoro": 50,
+        "shortBreak": 10
+    },
+    "activities": [
+        {"name": "a1"},
+        {"name": "a2"}
+    ]
+}
