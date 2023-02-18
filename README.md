@@ -1,6 +1,6 @@
 # Study Session Tracker with Pomodoro Timer
 
-Term Project for UBC CPSC 210 course (Winter 2022)
+Term Project for UBC's CPSC 210 Software Construction Course (Winter 2022)
 
 ## Introduction
 This application keeps track of your study or focus sessions with the help of a customizable *pomodoro* timer. 
