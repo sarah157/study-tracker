@@ -19,14 +19,13 @@ motivating to keep track of these sessions to see how they vary depending on the
 With this application, I can quickly start a pomodoro timer and track a study session all in one go. 
 
 ## User Stories
-- As a user, I want to be able to add an activity to my study tracker.
-- As a user, I want to be able to add a completed study session entry to my study tracker.
-- As a user, I want to be able to start and end a pomodoro timer then save the pomodoro session to my study tracker.
-- As a user, I want to be able to delete a session from my study tracker.
-- As a user, I want to be able to view a list of my study sessions entries and filter them by activity.
-- As a user, I want to be able to edit the pomodoro timer settings in terms of interval durations and repetitions.
-- As a user, I want to be able to save my study tracker's activities, sessions, and timer settings.
-- As a user, I want to be able to load my study tracker from file.
+- As a user, I want to add a completed study session entry to my study tracker.
+- As a user, I want to start and end a pomodoro timer then save the pomodoro session to my study tracker.
+- As a user, I want to group sessions by activity type.
+- As a user, I want to view a list of my study session entries and filter them by activity.
+- As a user, I want to edit the pomodoro timer settings in terms of interval durations and repetitions.
+- As a user, I want to save my study tracker's activities, sessions, and timer settings.
+- As a user, I want to load my study tracker from file.
 
 <!-- ## Phase 4: Task 2
 Fri Apr 01 12:32:46 PDT 2022  
