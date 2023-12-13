@@ -27,6 +27,11 @@ With this application, I can quickly start a pomodoro timer and track a study se
 - As a user, I want to save my study tracker's activities, sessions, and timer settings.
 - As a user, I want to load my study tracker from file.
 
+## Demo
+
+https://github.com/sarah157/study-tracker/assets/47197893/f1c4e84e-a3a2-4a03-b910-2052a483517b
+
+
 <!-- ## Phase 4: Task 2
 Fri Apr 01 12:32:46 PDT 2022  
 Viewed all sessions
