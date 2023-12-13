@@ -19,8 +19,8 @@ public class StudyTrackerGUI extends JFrame {
     public static final int SCREEN_WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width;
     private static final String JSON_STORE = "./data/myStudyTracker.json";
     public static final String VIEW = "View sessions";
-    public static final String ADD_COMPLETED = "Add completed";
-    public static final String ADD_POMODORO = "Add pomodoro";
+    public static final String ADD_COMPLETED = "Add Completed Session";
+    public static final String ADD_POMODORO = "Start Pomodoro Session";
     public static final String RUN_TIMER = "Run timer";
     public static final String LOAD = "Load";
     public static final String SAVE = "Save";

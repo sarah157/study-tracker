@@ -231,7 +231,7 @@ public class ViewSessionsPanel extends SessionPanel implements ListSelectionList
 
     // EFFECTS: returns date in string format EEE MMM-dd-yyyy from given datetime. e.g. Mon Feb-07-2022
     private String parseShortDate(LocalDateTime datetime) {
-        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("MMM-dd-yyyy");
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
         return dateFormatter.format(datetime);
     }
 
