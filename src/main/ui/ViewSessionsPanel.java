@@ -122,8 +122,8 @@ public class ViewSessionsPanel extends SessionPanel implements ListSelectionList
     // MODIFIES: this
     // EFFECTS: renders a "no sessions" message in the view panel
     private void showNoSessionsMessage() {
-        JLabel info = new JLabel("No sessions here. Add your first one. •ᴗ•");
-        info.setFont(new Font("Serif", Font.PLAIN, 15));
+        JLabel info = new JLabel("No sessions here. Add your first one.");
+        info.setFont(new Font("Dialog", Font.PLAIN, 15));
         info.setBounds(10, 0, 500, 30);
         view.add(info);
     }
@@ -156,10 +156,10 @@ public class ViewSessionsPanel extends SessionPanel implements ListSelectionList
         view.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 
         date = new JLabel();
-        date.setFont(new Font("Serif", Font.PLAIN, 20));
+        date.setFont(new Font("Dialog", Font.PLAIN, 20));
 
         time = new JLabel();
-        time.setFont(new Font("Serif", Font.PLAIN, 15));
+        time.setFont(new Font("Dialog", Font.PLAIN, 15));
 
         activity = new JLabel();
         timerSettings = new JLabel();
@@ -176,7 +176,7 @@ public class ViewSessionsPanel extends SessionPanel implements ListSelectionList
     private JPanel createRow(JLabel label, JComponent field) {
         JPanel row = new JPanel(new FlowLayout(FlowLayout.LEFT));
         if (label != null) {
-            label.setFont(new Font("Serif", Font.BOLD, 12));
+            label.setFont(new Font("Dialog", Font.BOLD, 12));
             row.add(label);
         }
         if (field != null) {

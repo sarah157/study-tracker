@@ -50,7 +50,7 @@ public abstract class AddSessionPanel extends SessionPanel {
     private void addTitle(String title) {
         JLabel label = new JLabel(title);
         label.setBorder(BorderFactory.createEmptyBorder(50, SCREEN_WIDTH / 2, 10, SCREEN_WIDTH / 2));
-        label.setFont(new Font("Serif", Font.PLAIN, 20));
+        label.setFont(new Font("Dialog", Font.PLAIN, 20));
         add(label);
     }
 

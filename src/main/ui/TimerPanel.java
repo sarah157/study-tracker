@@ -44,11 +44,11 @@ public class TimerPanel extends JPanel {
     // EFFECTS: sets up timer interval, time remaining and cycle info graphics
     private void addCountdownAndCycleInfo() {
         interval = new JLabel();
-        interval.setFont(new Font("Serif", Font.ITALIC, 30));
+        interval.setFont(new Font("Dialog", Font.ITALIC, 30));
         interval.setHorizontalAlignment(SwingConstants.CENTER);
 
         timeRemaining = new JLabel();
-        timeRemaining.setFont(new Font("Serif", Font.BOLD, 90));
+        timeRemaining.setFont(new Font("Dialog", Font.BOLD, 90));
         timeRemaining.setHorizontalAlignment(SwingConstants.CENTER);
 
         JPanel cycleInfo = new JPanel();
