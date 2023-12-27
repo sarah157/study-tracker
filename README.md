@@ -29,7 +29,10 @@ With this application, I can quickly start a pomodoro timer and track a study se
 
 ## Demo
 
-https://github.com/sarah157/study-tracker/assets/47197893/f1c4e84e-a3a2-4a03-b910-2052a483517b
+https://github.com/sarah157/study-tracker/assets/47197893/70f8f6b3-8135-42c2-8228-c1ed0f445a3a
+
+
+
 
 
 <!-- ## Phase 4: Task 2
