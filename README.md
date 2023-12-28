@@ -28,6 +28,7 @@ With this application, I can quickly start a pomodoro timer and track a study se
 - As a user, I want to load my study tracker from file.
 
 ## Demo
+If video is not loading go to: "https://github.com/sarah157/study-tracker/assets/47197893/70f8f6b3-8135-42c2-8228-c1ed0f445a3a"
 
 https://github.com/sarah157/study-tracker/assets/47197893/70f8f6b3-8135-42c2-8228-c1ed0f445a3a
 
